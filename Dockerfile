@@ -1,5 +1,5 @@
  FROM httpd:2.2
 
- COPY ./docker/  /usr/local/apache2/htdocs/
+ COPY /home/ec2-user/project1/docker/  /usr/local/apache2/htdocs/
 
  CMD ["httpd-foreground"]
